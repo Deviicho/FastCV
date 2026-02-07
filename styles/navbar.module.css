@@ -1,0 +1,54 @@
+.nav {
+  width: 100%;
+  height: 3.125rem; /* keep — this is your contract */
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: clamp(1rem, 4vw, 2.5rem);
+  background-color: var(--navBackground);
+  border-bottom: 1px solid hsla(0, 0%, 92%, 0.17);
+  backdrop-filter: blur(clamp(20px, 6vw, 100px));
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  font-size: clamp(0.95rem, 2.5vw, 1.25rem);
+  font-weight: 400;
+}
+
+.Fast{
+    color: var(--primaryTXT);
+}
+.CV{
+    color: var(--accent);
+}
+
+.sTryItButton {
+  padding: 0.2em 0.3em;
+  min-width: 6.875rem;
+  font-size: 1.125rem;
+  color: var(--primaryTXT);
+  background-color: var(--accent);
+  border: 0.5px solid hsla(301, 58%, 53%, 0.49);
+  border-radius: 0.125rem;
+  box-shadow: 0 0 0.3125rem rgba(191, 62, 255, 0.76);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.sBackButton {
+  padding: 0.2em 0.3em;
+  min-width: 6.875rem;
+  font-size: 1.125rem;
+  color: var(--primaryTXT);
+  background-color: var(--secondary-btn);
+  border: 0.5px solid hsla(301, 58%, 53%, 0.49);
+  border-radius: 0.125rem;
+  box-shadow: 0 0 0.5125rem rgba(191, 62, 255, 0.76);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.sBackButton:hover{
+    box-shadow: 0 0 0.95rem rgba(191, 62, 255, 0.76);
+}
