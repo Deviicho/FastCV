@@ -72,6 +72,7 @@ export function WorkXPsection({ data, setData }: WorkXPProps) {
 
             <input 
               type="date" 
+              placeholder='DD/MM/YYYY'
               className={styles.jobDateInput}
               value={entry.date}
               onChange={(e) => handleUpdate(entry.id, 'date', e.target.value)}

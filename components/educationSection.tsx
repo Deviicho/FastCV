@@ -56,7 +56,7 @@ export function EducationSection({ data, setData }: EducationProps) {
             <div className={styles.cardHeader}>
                <input 
                 type="text" 
-                placeholder="Degree/Certificate, School/University" 
+                placeholder="Degree/Certificate" 
                 className={styles.jobTitleInput}
                 value={entry.title}
                 onChange={(e) => handleUpdate(entry.id, 'title', e.target.value)}
@@ -71,6 +71,7 @@ export function EducationSection({ data, setData }: EducationProps) {
 
             <input 
               type="date" 
+              placeholder='DD/MM/YYYY'
               className={styles.jobDateInput}
               value={entry.date}
               onChange={(e) => handleUpdate(entry.id, 'date', e.target.value)}

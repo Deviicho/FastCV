@@ -13,6 +13,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "FastCV",
   description: "Create your professional resume",
+  colorScheme: 'dark',
   other: {
     google: "notranslate",
   },

@@ -77,7 +77,7 @@ export default function NewCVPage() {
           <input required type="tel" name="phone" placeholder='Phone number' value={personal.phone} onChange={handlePersonalChange} />
           <input required type="text" name="profession" placeholder='Profession' value={personal.profession} onChange={handlePersonalChange} />
           <input required type="text" name="address" placeholder='Address' value={personal.address} onChange={handlePersonalChange} />
-          <input required type="date" name="dob" value={personal.dob} onChange={handlePersonalChange} />
+          <input required placeholder='DD/MM/YYYY' type="date" name="dob" value={personal.dob} onChange={handlePersonalChange} />
           <input required type="text" name="pob" placeholder='Place of birth' value={personal.pob} onChange={handlePersonalChange} />
         </div>
         <label htmlFor='file-input' className={styles.fileInputLabel}>
