@@ -57,7 +57,7 @@ export function LanguagesSection({ data, setData }: LangsProps) {
                 onClick={() => removeLanguageBlock(entry.id)} 
                 className={styles.langANDskilldeleteBtn}
               >
-                Delete
+                <img src="/trash.svg" alt="" className="trash-icon" />
               </button>
             </div>
 

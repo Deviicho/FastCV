@@ -57,7 +57,7 @@ export function SkillsSection({ data, setData }: SkillsProps) {
                 onClick={() => removeSkillBlock(entry.id)} 
                 className={styles.langANDskilldeleteBtn}
               >
-                Delete
+                <img src="/trash.svg" alt="" className="trash-icon" />
               </button>
             </div>
 

@@ -66,7 +66,7 @@ export function WorkXPsection({ data, setData }: WorkXPProps) {
                 onClick={() => removeWorkBlock(entry.id)} 
                 className={styles.deleteBtn}
               >
-                Delete
+                <img src="/trash.svg" alt="" className="trash-icon" />
               </button>
             </div>
 

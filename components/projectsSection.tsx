@@ -61,7 +61,7 @@ export function ProjectsSection({ data, setData }: ProjectsProps) {
                 onClick={() => removeProjectBlock(entry.id)} 
                 className={styles.deleteBtn}
               >
-                Delete
+                <img src="/trash.svg" alt="" className="trash-icon" />
               </button>
             </div>
 
